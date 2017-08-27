@@ -13,7 +13,10 @@
 #include <vector>
 #include <string>
 #include <sstream>
+
+#if !__APPLE__
 #include <stdint-gcc.h>
+#endif
 
 #include "FORB.h"
 

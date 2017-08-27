@@ -31,6 +31,10 @@
 #include<mutex>
 #include<thread>
 
+#if __APPLE__
+#include <unistd.h>
+#endif
+
 
 namespace ORB_SLAM2
 {
